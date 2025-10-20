@@ -7,9 +7,6 @@
 body {
   background: midnightblue;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
 }
 
 .photos {
@@ -18,6 +15,7 @@ body {
   grid-auto-rows: 130px;
   gap: 10px;
   max-width: 1000px;
+  margin: 15px auto;
 }
 
 .box {
